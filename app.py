@@ -6,3 +6,5 @@ if "count" not in st.session_state:
 
 if st.button("Click me"):
   st.session_state["count"] += 1
+
+st.writw(st.session_state)
