@@ -11,6 +11,6 @@ if st.button("Click me"):
   st.session_state["count"] += 1
 
 nombre = st.text_imput("Escribe tu nombre")
-st.write(nombre)
+st.write("nombre")
 
 st.write(st.session_state)
