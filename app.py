@@ -5,6 +5,6 @@ count = 0
 
 increment = st.button("Increment")
 if increment: 
-  count += 1
+  count += 100
 
 st.write("Count =", count)
