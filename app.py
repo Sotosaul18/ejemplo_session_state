@@ -3,6 +3,7 @@ st.title("Ejemplo para usar session_state")
 
 count = 0
 
+increment = st.button("Increment")
 if increment: 
   count == 1
 
